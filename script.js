@@ -7,7 +7,7 @@ const generateTarget = () => {
   return Math.floor(Math.random() * 10);
 };
 
-// Step 2:This function calls each round to determine which guess is closest to target number
+// Step 2: This function calls each round to determine which guess is closest to target number
 const compareGuesses = (human, computer, target) => {
   const humanGuess = Math.abs(human - target);
   const computerGuess = Math.abs(computer - target);
@@ -27,7 +27,7 @@ const updateScore = string => {
      }
 }
 
-// Step 4: To updte the round number after each round 
+// Step 4: To update the round number after each round 
 
 const advanceRound = () => {
   currentRoundNumber += 1;
