@@ -32,6 +32,3 @@ const updateScore = string => {
 const advanceRound = () => {
   currentRoundNumber += 1;
 }
-
-// https://gist.github.com/85e7bfa566a2cd0a39742ecab07e506a
-
